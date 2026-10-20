@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+  <defs>
+    <!-- Background watercolor wash -->
+    <linearGradient id="dermBgWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDFBF7" stop-opacity="1" />
+      <stop offset="35%" stop-color="#FAF5EE" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#F3ECE2" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#EBE1D3" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Calming soothing glow (cooling aura) -->
+    <radialGradient id="sootheGlow" cx="62%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#E8F1EC" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#E1EDE6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="warmSkinGlow" cx="68%" cy="52%" r="40%">
+      <stop offset="0%" stop-color="#F9E8DC" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#F5E0D0" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Chamomile center gradient -->
+    <radialGradient id="chamoCenter" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FAD058" />
+      <stop offset="70%" stop-color="#DF9B28" />
+      <stop offset="100%" stop-color="#BA771A" />
+    </radialGradient>
+
+    <!-- Leaf gradients -->
+    <linearGradient id="sageLeafDerm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B9986" />
+      <stop offset="100%" stop-color="#3B5D48" />
+    </linearGradient>
+
+    <linearGradient id="oatStem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D1B88B" />
+      <stop offset="100%" stop-color="#9C835A" />
+    </linearGradient>
+
+    <linearGradient id="handStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A67B62" />
+      <stop offset="100%" stop-color="#704D39" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background base -->
+  <rect width="900" height="600" fill="url(#dermBgWash)" />
+
+  <!-- Calming Aura / Soothing Radiance -->
+  <circle cx="580" cy="300" r="280" fill="url(#sootheGlow)" />
+  <circle cx="680" cy="340" r="220" fill="url(#warmSkinGlow)" />
+
+  <!-- Soft organic cooling ripples (Wave of relief over heated skin) -->
+  <g fill="none" stroke="#688F79" stroke-opacity="0.25" stroke-width="2.5">
+    <path d="M 380 480 C 480 450, 560 520, 680 470 C 780 430, 840 480, 900 450" />
+    <path d="M 420 420 C 520 390, 600 460, 720 410 C 810 370, 860 410, 900 390" />
+    <path d="M 460 360 C 560 330, 640 400, 750 350 C 840 310, 870 350, 900 330" stroke-opacity="0.18" />
+  </g>
+
+  <!-- Flowing Silk / Soft Linen Fabric Ribbon (Защитный мягкий покров для кожи) -->
+  <path d="M 360 600 C 460 490, 580 540, 710 470 C 820 410, 860 460, 900 420 L 900 600 Z" fill="#42634F" fill-opacity="0.1" />
+  <path d="M 440 600 C 540 480, 670 510, 780 440 C 850 400, 880 430, 900 400 L 900 600 Z" fill="#D6B88A" fill-opacity="0.12" />
+
+  <!-- Gentle Soothing Hand cupping the Arm (Нежное успокаивающее прикосновение к коже вместо расчёсывания) -->
+  <g transform="translate(460, 160)" opacity="0.9">
+    <!-- Forearm / wrist soft silhouette in warm blush tone -->
+    <path d="M 60 360 C 90 280, 140 210, 200 170 C 260 130, 340 100, 420 80 L 440 120 C 370 140, 300 170, 240 210 C 180 250, 130 320, 100 380 Z" fill="#F4E6DC" fill-opacity="0.75" stroke="#BA9580" stroke-width="1.5" stroke-dasharray="3 3" />
+
+    <!-- Resting Gentle Hand silhouette (Caring touch on skin) -->
+    <!-- Palm & wrist -->
+    <path d="M 190 260 C 180 230, 175 190, 195 160 C 215 130, 255 125, 290 145 C 315 160, 325 185, 335 220" fill="none" stroke="url(#handStroke)" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Index finger tenderly resting on skin -->
+    <path d="M 290 145 C 320 135, 360 140, 395 160 C 410 170, 415 185, 400 195 C 380 205, 345 195, 320 190" fill="none" stroke="url(#handStroke)" stroke-width="2.2" stroke-linecap="round" />
+    <!-- Middle finger -->
+    <path d="M 320 190 C 350 185, 390 195, 415 215 C 425 225, 420 238, 405 245 C 380 255, 345 240, 315 235" fill="none" stroke="url(#handStroke)" stroke-width="2.2" stroke-linecap="round" />
+    <!-- Ring finger -->
+    <path d="M 315 235 C 340 235, 375 245, 395 265 C 405 275, 400 285, 385 292 C 365 298, 335 285, 305 275" fill="none" stroke="url(#handStroke)" stroke-width="2" stroke-linecap="round" />
+    <!-- Thumb supporting gently underneath -->
+    <path d="M 205 185 C 220 195, 235 215, 245 240" fill="none" stroke="url(#handStroke)" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Calming pulse / gentle aura around the contact point -->
+    <circle cx="340" cy="180" r="28" fill="#588B6E" fill-opacity="0.12" />
+    <circle cx="340" cy="180" r="16" fill="#588B6E" fill-opacity="0.18" />
+    <circle cx="340" cy="180" r="6" fill="#588B6E" fill-opacity="0.3" />
+  </g>
+
+  <!-- Soothing Chamomile Blossoms (Ромашка аптечная — символ успокоения кожи и снятия зуда) -->
+  <!-- Chamomile 1 (Large, prominent near top right) -->
+  <g transform="translate(730, 160)">
+    <!-- Petals -->
+    <g fill="#FFFFFF" fill-opacity="0.9" stroke="#E3DACB" stroke-width="1">
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(0)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(30)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(60)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(90)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(120)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(150)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(180)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(210)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(240)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(270)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(300)" />
+      <ellipse cx="0" cy="-38" rx="7.5" ry="24" transform="rotate(330)" />
+    </g>
+    <!-- Center disk -->
+    <circle cx="0" cy="0" r="17" fill="url(#chamoCenter)" stroke="#9C6B1B" stroke-width="0.8" />
+    <!-- Fine pollen texture on center -->
+    <circle cx="-5" cy="-4" r="1.5" fill="#FFF2A8" opacity="0.8" />
+    <circle cx="4" cy="-5" r="1.5" fill="#FFF2A8" opacity="0.8" />
+    <circle cx="0" cy="5" r="1.5" fill="#FFF2A8" opacity="0.8" />
+  </g>
+
+  <!-- Chamomile 2 (Medium, lower right) -->
+  <g transform="translate(810, 270) scale(0.72) rotate(18)">
+    <g fill="#FFFFFF" fill-opacity="0.88" stroke="#E3DACB" stroke-width="1.2">
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(0)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(36)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(72)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(108)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(144)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(180)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(216)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(252)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(288)" />
+      <ellipse cx="0" cy="-36" rx="7" ry="22" transform="rotate(324)" />
+    </g>
+    <circle cx="0" cy="0" r="15" fill="url(#chamoCenter)" stroke="#9C6B1B" stroke-width="0.8" />
+  </g>
+
+  <!-- Chamomile 3 (Small bud, left of hand) -->
+  <g transform="translate(620, 110) scale(0.55) rotate(-22)">
+    <g fill="#FFFFFF" fill-opacity="0.85" stroke="#E3DACB" stroke-width="1.2">
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(0)" />
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(45)" />
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(90)" />
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(135)" />
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(180)" />
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(225)" />
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(270)" />
+      <ellipse cx="0" cy="-32" rx="7" ry="20" transform="rotate(315)" />
+    </g>
+    <circle cx="0" cy="0" r="14" fill="url(#chamoCenter)" />
+  </g>
+
+  <!-- Calming Oat Sprays (Овёс / коллоидный овёс — традиционное дерматологическое средство для восстановления кожного барьера) -->
+  <g stroke="url(#oatStem)" fill="none" stroke-width="1.8" stroke-linecap="round">
+    <!-- Oat stem 1 -->
+    <path d="M 850 480 Q 780 380 720 320 T 670 260" />
+    <!-- Oat hanging grains -->
+    <g fill="#D8BE8E" stroke="#A88B58" stroke-width="0.8">
+      <!-- Grain 1 -->
+      <line x1="740" y1="345" x2="725" y2="370" />
+      <ellipse cx="723" cy="375" rx="3.5" ry="8" transform="rotate(20 723 375)" />
+      <!-- Grain 2 -->
+      <line x1="710" y1="310" x2="690" y2="330" />
+      <ellipse cx="688" cy="335" rx="3.5" ry="8" transform="rotate(30 688 335)" />
+      <!-- Grain 3 -->
+      <line x1="680" y1="280" x2="665" y2="295" />
+      <ellipse cx="663" cy="300" rx="3" ry="7" transform="rotate(35 663 300)" />
+    </g>
+  </g>
+
+  <!-- Soothing Herbal Leaves (Chamomile foliage & Aloe/cooling herbs) -->
+  <g fill="url(#sageLeafDerm)" opacity="0.85">
+    <!-- Feathery leaf 1 -->
+    <path d="M 760 210 Q 780 250 820 280 C 800 270 770 240 760 210 Z" />
+    <path d="M 740 190 Q 720 230 690 260 C 705 245 725 220 740 190 Z" />
+    <path d="M 830 310 Q 860 340 880 390 C 865 370 845 340 830 310 Z" />
+  </g>
+
+  <!-- Cooling Drops of Hydration & Soothing Essence (Капли влаги / облегчения) -->
+  <g fill="#6C9A80" fill-opacity="0.35">
+    <ellipse cx="590" cy="230" rx="4" ry="7" transform="rotate(-15 590 230)" />
+    <ellipse cx="640" cy="360" rx="3.5" ry="6" transform="rotate(25 640 360)" />
+    <ellipse cx="760" cy="400" rx="4.5" ry="8" transform="rotate(-10 760 400)" />
+    <ellipse cx="520" cy="280" rx="3" ry="5" transform="rotate(10 520 280)" />
+  </g>
+
+  <!-- Left Edge Gentle Seamless Fade to Card Background (#FDFBF7) -->
+  <rect x="0" y="0" width="220" height="600" fill="url(#leftFadeDerm)" />
+  <defs>
+    <linearGradient id="leftFadeDerm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDFBF7" stop-opacity="1" />
+      <stop offset="60%" stop-color="#FDFBF7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>

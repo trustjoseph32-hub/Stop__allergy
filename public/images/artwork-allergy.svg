@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+  <defs>
+    <!-- Background subtle watercolor wash -->
+    <linearGradient id="bgWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDFBF7" stop-opacity="1" />
+      <stop offset="35%" stop-color="#F9F5EC" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#F1ECE0" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#E5DEC9" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Warm pollen golden glow -->
+    <radialGradient id="pollenGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EBB653" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#DF9F38" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="pollenGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5CF78" stop-opacity="0.75" />
+      <stop offset="40%" stop-color="#E2A63B" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="sunbeamGlow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FFF5D6" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#F6E7C4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sage green organic gradient -->
+    <linearGradient id="sageLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#708C79" />
+      <stop offset="100%" stop-color="#345440" />
+    </linearGradient>
+    <linearGradient id="birchStem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9C8770" />
+      <stop offset="100%" stop-color="#5C4D3E" />
+    </linearGradient>
+    <linearGradient id="catkinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#BA8844" />
+      <stop offset="50%" stop-color="#9E6E30" />
+      <stop offset="100%" stop-color="#7A5323" />
+    </linearGradient>
+
+    <!-- Watercolor organic paper filter -->
+    <filter id="softBlur" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" />
+    </filter>
+    <filter id="pollenBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="600" fill="url(#bgWash)" />
+
+  <!-- Luminous Warm Light Overlay -->
+  <circle cx="680" cy="220" r="320" fill="url(#sunbeamGlow)" />
+  <circle cx="560" cy="380" r="260" fill="url(#pollenGlow1)" />
+  <circle cx="740" cy="180" r="180" fill="url(#pollenGlow2)" />
+
+  <!-- Abstract Watercolor Mountainous Hills (Organic background planes) -->
+  <path d="M 320 600 Q 480 480 620 520 T 900 460 L 900 600 Z" fill="#4B6A56" fill-opacity="0.12" />
+  <path d="M 420 600 Q 580 430 750 470 T 900 410 L 900 600 Z" fill="#6A8572" fill-opacity="0.16" />
+  <path d="M 540 600 Q 690 390 820 420 T 900 370 L 900 600 Z" fill="#C49B5A" fill-opacity="0.14" />
+
+  <!-- Wind & Airborne Pollen Stream lines (Curved graceful lines) -->
+  <g stroke="#9FAEA3" stroke-width="1.2" fill="none" opacity="0.45" stroke-dasharray="4 6">
+    <path d="M 280 260 C 420 220, 560 300, 720 250 S 860 210, 900 220" />
+    <path d="M 340 330 C 470 290, 610 370, 770 310 S 880 270, 900 280" />
+    <path d="M 400 180 C 510 150, 650 210, 780 170 S 860 140, 900 150" />
+  </g>
+
+  <!-- Wild Meadow Grass Stems (Травы и злаки - аллергены) -->
+  <g stroke="#53725E" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.75">
+    <!-- Grass blade 1 -->
+    <path d="M 820 600 Q 800 420 730 310 Q 700 260 670 230" stroke-width="2.5" />
+    <!-- Grass blade 2 -->
+    <path d="M 850 600 Q 840 450 810 340 Q 790 280 750 240" stroke-width="2.2" />
+    <!-- Grass blade 3 curving left -->
+    <path d="M 780 600 Q 740 460 660 380 Q 600 320 540 300" stroke-width="2" />
+    <!-- Grass blade 4 -->
+    <path d="M 880 600 Q 870 410 840 280 Q 820 210 790 170" stroke-width="2" />
+  </g>
+
+  <!-- Timothy/Meadow Spikelets (Колоски тимофеевки/мятлика) -->
+  <g fill="#A9844A" opacity="0.85">
+    <!-- Spikelet 1 on grass 1 -->
+    <g transform="translate(670, 230) rotate(-45)">
+      <ellipse cx="0" cy="0" rx="4" ry="14" />
+      <ellipse cx="-4" cy="-8" rx="3.5" ry="10" />
+      <ellipse cx="4" cy="-8" rx="3.5" ry="10" />
+      <ellipse cx="-4" cy="-20" rx="3" ry="9" />
+      <ellipse cx="4" cy="-20" rx="3" ry="9" />
+      <ellipse cx="0" cy="-32" rx="2.5" ry="8" />
+      <line x1="0" y1="0" x2="-8" y2="-12" stroke="#A9844A" stroke-width="1" />
+      <line x1="0" y1="-10" x2="8" y2="-22" stroke="#A9844A" stroke-width="1" />
+      <line x1="0" y1="-20" x2="-8" y2="-32" stroke="#A9844A" stroke-width="1" />
+      <line x1="0" y1="-30" x2="6" y2="-42" stroke="#A9844A" stroke-width="1" />
+    </g>
+    <!-- Spikelet 2 on grass 2 -->
+    <g transform="translate(750, 240) rotate(-35)">
+      <ellipse cx="0" cy="0" rx="3.5" ry="12" />
+      <ellipse cx="-3.5" cy="-7" rx="3" ry="9" />
+      <ellipse cx="3.5" cy="-7" rx="3" ry="9" />
+      <ellipse cx="-3.5" cy="-18" rx="2.8" ry="8" />
+      <ellipse cx="3.5" cy="-18" rx="2.8" ry="8" />
+      <ellipse cx="0" cy="-28" rx="2.2" ry="7" />
+    </g>
+    <!-- Spikelet 3 on grass 3 -->
+    <g transform="translate(540, 300) rotate(-65)">
+      <ellipse cx="0" cy="0" rx="3" ry="10" />
+      <ellipse cx="-3" cy="-6" rx="2.5" ry="8" />
+      <ellipse cx="3" cy="-6" rx="2.5" ry="8" />
+      <ellipse cx="0" cy="-15" rx="2" ry="6" />
+    </g>
+  </g>
+
+  <!-- Birch Branch with Catkins (Ветка берёзы с пылящими серёжками) -->
+  <!-- Main Birch Stem from top right -->
+  <path d="M 910 40 Q 820 80 730 110 T 610 180 T 520 270" fill="none" stroke="url(#birchStem)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 730 110 Q 690 150 670 210" fill="none" stroke="url(#birchStem)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 820 80 Q 770 120 740 180" fill="none" stroke="url(#birchStem)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 610 180 Q 560 210 530 260" fill="none" stroke="url(#birchStem)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Birch Leaves (Сердцевидные зубчатые листья берёзы) -->
+  <g fill="url(#sageLeaf)" opacity="0.88">
+    <!-- Leaf 1 -->
+    <path d="M 710 115 C 690 90, 650 95, 655 125 C 660 150, 700 145, 710 115 Z" />
+    <!-- Leaf 2 -->
+    <path d="M 780 95 C 765 70, 730 75, 735 100 C 740 120, 775 115, 780 95 Z" />
+    <!-- Leaf 3 -->
+    <path d="M 630 170 C 605 150, 575 160, 585 185 C 595 205, 625 195, 630 170 Z" />
+    <!-- Leaf 4 -->
+    <path d="M 545 250 C 525 230, 495 240, 505 265 C 515 285, 540 275, 545 250 Z" />
+    <!-- Leaf 5 -->
+    <path d="M 840 70 C 830 45, 795 50, 800 75 C 805 95, 835 90, 840 70 Z" />
+  </g>
+
+  <!-- Birch Catkins (Серёжки берёзы - главный источник весенней пыльцы) -->
+  <g fill="url(#catkinGrad)" stroke="#744D1E" stroke-width="0.8">
+    <!-- Catkin 1 hanging from stem -->
+    <g transform="translate(670, 210) rotate(12)">
+      <rect x="-4.5" y="0" width="9" height="52" rx="4.5" />
+      <!-- Texture ridges -->
+      <line x1="-4" y1="8" x2="4" y2="8" stroke="#5C3B14" stroke-width="1.2" />
+      <line x1="-4" y1="16" x2="4" y2="16" stroke="#5C3B14" stroke-width="1.2" />
+      <line x1="-4" y1="24" x2="4" y2="24" stroke="#5C3B14" stroke-width="1.2" />
+      <line x1="-4" y1="32" x2="4" y2="32" stroke="#5C3B14" stroke-width="1.2" />
+      <line x1="-4" y1="40" x2="4" y2="40" stroke="#5C3B14" stroke-width="1.2" />
+    </g>
+    <!-- Catkin 2 pair -->
+    <g transform="translate(677, 210) rotate(-6)">
+      <rect x="-4" y="0" width="8" height="46" rx="4" />
+      <line x1="-3.5" y1="8" x2="3.5" y2="8" stroke="#5C3B14" stroke-width="1.1" />
+      <line x1="-3.5" y1="16" x2="3.5" y2="16" stroke="#5C3B14" stroke-width="1.1" />
+      <line x1="-3.5" y1="24" x2="3.5" y2="24" stroke="#5C3B14" stroke-width="1.1" />
+      <line x1="-3.5" y1="32" x2="3.5" y2="32" stroke="#5C3B14" stroke-width="1.1" />
+    </g>
+    <!-- Catkin 3 -->
+    <g transform="translate(740, 180) rotate(8)">
+      <rect x="-4" y="0" width="8" height="48" rx="4" />
+      <line x1="-3.5" y1="8" x2="3.5" y2="8" stroke="#5C3B14" stroke-width="1.1" />
+      <line x1="-3.5" y1="17" x2="3.5" y2="17" stroke="#5C3B14" stroke-width="1.1" />
+      <line x1="-3.5" y1="26" x2="3.5" y2="26" stroke="#5C3B14" stroke-width="1.1" />
+      <line x1="-3.5" y1="35" x2="3.5" y2="35" stroke="#5C3B14" stroke-width="1.1" />
+    </g>
+  </g>
+
+  <!-- Floating Dandelion Seeds (Летящие зонтики одуванчика) -->
+  <!-- Dandelion 1 -->
+  <g transform="translate(480, 170) rotate(-25)" opacity="0.85">
+    <ellipse cx="0" cy="24" rx="1.5" ry="4" fill="#69533B" />
+    <line x1="0" y1="20" x2="0" y2="0" stroke="#7E6C58" stroke-width="1" />
+    <!-- Feathery tuft -->
+    <path d="M 0 0 L -12 -12 M 0 0 L -8 -16 M 0 0 L 0 -18 M 0 0 L 8 -16 M 0 0 L 12 -12 M 0 0 L -16 -6 M 0 0 L 16 -6" stroke="#A39686" stroke-width="0.9" />
+  </g>
+  <!-- Dandelion 2 -->
+  <g transform="translate(370, 240) rotate(-15)" opacity="0.75">
+    <ellipse cx="0" cy="20" rx="1.3" ry="3.5" fill="#69533B" />
+    <line x1="0" y1="17" x2="0" y2="0" stroke="#7E6C58" stroke-width="0.9" />
+    <path d="M 0 0 L -10 -10 M 0 0 L -6 -14 M 0 0 L 0 -15 M 0 0 L 6 -14 M 0 0 L 10 -10 M 0 0 L -14 -5 M 0 0 L 14 -5" stroke="#A39686" stroke-width="0.8" />
+  </g>
+  <!-- Dandelion 3 (drifting leftward) -->
+  <g transform="translate(290, 310) rotate(-35)" opacity="0.6">
+    <ellipse cx="0" cy="18" rx="1.2" ry="3" fill="#69533B" />
+    <line x1="0" y1="15" x2="0" y2="0" stroke="#7E6C58" stroke-width="0.8" />
+    <path d="M 0 0 L -9 -9 M 0 0 L 0 -13 M 0 0 L 9 -9" stroke="#A39686" stroke-width="0.8" />
+  </g>
+
+  <!-- Golden Airborne Pollen Cloud & Glistening Particles (Облако микрочастиц пыльцы) -->
+  <!-- Large glowing dust motes -->
+  <g filter="url(#pollenBlur)">
+    <circle cx="680" cy="245" r="9" fill="#F7CA5A" fill-opacity="0.8" />
+    <circle cx="650" cy="285" r="7" fill="#F0BA3C" fill-opacity="0.75" />
+    <circle cx="700" cy="300" r="11" fill="#F7CA5A" fill-opacity="0.7" />
+    <circle cx="620" cy="230" r="8" fill="#F4BD44" fill-opacity="0.65" />
+    <circle cx="560" cy="320" r="10" fill="#E6A82C" fill-opacity="0.6" />
+    <circle cx="490" cy="280" r="8" fill="#F4BD44" fill-opacity="0.55" />
+    <circle cx="430" cy="350" r="9" fill="#F7CA5A" fill-opacity="0.5" />
+    <circle cx="750" cy="230" r="7" fill="#F0BA3C" fill-opacity="0.7" />
+  </g>
+
+  <!-- Crisp microscopic pollen particles glistening in the air -->
+  <g fill="#DCA330">
+    <circle cx="680" cy="245" r="2.8" />
+    <circle cx="692" cy="255" r="2" />
+    <circle cx="665" cy="270" r="2.2" />
+    <circle cx="650" cy="285" r="2.5" />
+    <circle cx="638" cy="310" r="1.8" />
+    <circle cx="615" cy="225" r="2.2" />
+    <circle cx="595" cy="250" r="1.7" />
+    <circle cx="580" cy="290" r="2" />
+    <circle cx="560" cy="320" r="2.6" />
+    <circle cx="540" cy="270" r="1.6" />
+    <circle cx="515" cy="330" r="1.9" />
+    <circle cx="490" cy="280" r="2.4" />
+    <circle cx="465" cy="315" r="1.7" />
+    <circle cx="445" cy="265" r="1.5" />
+    <circle cx="430" cy="350" r="2.2" />
+    <circle cx="400" cy="310" r="1.8" />
+    <circle cx="370" cy="270" r="1.5" />
+    <circle cx="340" cy="340" r="1.6" />
+    <circle cx="310" cy="290" r="1.4" />
+
+    <!-- Dispersed motes near the light -->
+    <circle cx="715" cy="190" r="2" fill="#E8B342" />
+    <circle cx="735" cy="160" r="1.8" fill="#E8B342" />
+    <circle cx="760" cy="210" r="2.3" fill="#E8B342" />
+    <circle cx="780" cy="180" r="1.6" fill="#E8B342" />
+    <circle cx="810" cy="230" r="2.2" fill="#E8B342" />
+    <circle cx="745" cy="280" r="2.5" fill="#E8B342" />
+    <circle cx="770" cy="320" r="2" fill="#E8B342" />
+  </g>
+
+  <!-- Left Edge Gentle Seamless Fade to Card Background (#FDFBF7) -->
+  <rect x="0" y="0" width="220" height="600" fill="url(#leftFade)" />
+  <defs>
+    <linearGradient id="leftFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDFBF7" stop-opacity="1" />
+      <stop offset="60%" stop-color="#FDFBF7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>
