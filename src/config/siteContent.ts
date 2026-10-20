@@ -224,7 +224,7 @@ export const SITE_CONTENT: SiteConfig = {
         description:
           'Ожидание реакции, постоянная настороженность и усталость от ограничений занимают много сил.',
         url: '/allergy',
-        actionText: 'Работа с аллергией',
+        actionText: 'Подробнее',
         artwork: '/images/artwork-allergy.svg',
         symptoms: [
           { name: 'Пищевая', detail: 'сыпь, зуд, отёки, тревога перед едой и страх новых блюд' },
@@ -250,7 +250,7 @@ export const SITE_CONTENT: SiteConfig = {
         description:
           'Трудно отвлечься от состояния кожи, переживаний из-за внешности и ожидания нового обострения.',
         url: '/dermatitis',
-        actionText: 'Работа с дерматитом',
+        actionText: 'Подробнее',
         artwork: '/images/artwork-dermatitis.svg',
         symptoms: [
           { name: 'Дерматиты', detail: 'атопический и аллергический: сухость, покраснения, воспаление' },
@@ -276,7 +276,7 @@ export const SITE_CONTENT: SiteConfig = {
         description:
           'Помимо медицинских задач, приходится справляться со страхом приступа, напряжением и ограничениями в повседневной жизни.',
         url: '/asthma',
-        actionText: 'Работа с астмой',
+        actionText: 'Подробнее',
         artwork: '/images/artwork-asthma.svg',
         symptoms: [
           { name: 'Приступы и спазмы', detail: 'затруднённый выдох, свистящее дыхание, тяжесть в груди' },

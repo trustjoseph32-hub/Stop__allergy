@@ -119,29 +119,16 @@ export const SituationsSlider: React.FC<SituationsSliderProps> = ({
                   )}
                 </div>
 
-                {/* Активные ссылки на описание запроса и решение в виде формата работы */}
-                <div className="mt-6 sm:mt-8 pt-5 sm:pt-6 border-t border-[#D9DED6]/80 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6">
-                  {/* Основная ссылка: страница описания конкретного запроса */}
+                {/* Активная ссылка на подробную страницу запроса */}
+                <div className="mt-6 sm:mt-8 pt-5 sm:pt-6 border-t border-[#D9DED6]/80 flex items-center">
                   <button
                     type="button"
                     onClick={() => onNavigateRequest(item.url)}
-                    className="inline-flex items-center gap-2 text-sm sm:text-base font-semibold text-[#315B48] hover:text-[#274839] group transition-colors focus-visible:outline-2 focus-visible:outline-[#315B48] text-left"
+                    className="inline-flex items-center gap-2 text-sm sm:text-base font-semibold text-[#315B48] hover:text-[#274839] group transition-colors focus-visible:outline-2 focus-visible:outline-[#315B48] text-left cursor-pointer"
                   >
                     <span>{item.actionText}</span>
                     <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
                   </button>
-
-                  {/* Вторая ссылка: решение в виде формата работы */}
-                  {onNavigateTherapy && (
-                    <button
-                      type="button"
-                      onClick={onNavigateTherapy}
-                      className="inline-flex items-center gap-1.5 text-xs sm:text-sm text-[#59635C] hover:text-[#252C27] group transition-colors focus-visible:outline-2 focus-visible:outline-[#315B48] text-left"
-                    >
-                      <span>Индивидуальная терапия</span>
-                      <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
-                    </button>
-                  )}
                 </div>
               </div>
 
